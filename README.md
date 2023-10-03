@@ -1,4 +1,4 @@
-# Contador con dos displays de 7 segmentos
+# Contador de 7 segmentos
 ![Tinkercad](./img/Logo-tinkercad-wordmark.svg.png)
 
 
@@ -6,7 +6,7 @@
 - Brian Romeo
 - Dylan Peralta
 
-## Contador con dos displays de 7 segmentos.
+## Proyecto: Contador con dos displays de 7 segmentos.
 ![Tinkercad](./img/Contador.png)
 
 
@@ -31,13 +31,13 @@ void EncenderBinario(int estado3, int estado2,int estado1,int estado0)
 ~~~
 
 ## :robot: Link al proyecto
-- [proyecto](https://www.tinkercad.com/things/4o4MSXtLEbl)
+- [Proyecto](https://www.tinkercad.com/things/4o4MSXtLEbl)
 ## :tv: Link al video del proceso
 - [video](https://www.youtube.com/watch?v=VyGjE8kx-O0)
 
 ---
 ### Fuentes
-- [Consejos para documentar](https://www.sohamkamani.com/how-to-write-good-documentation/#architecture-documentation).
+- [Consigna](https://drive.google.com/file/d/1UTj8HBPnR7vM235m1BswtL_SMnmYe8nO/view).
 
 - [Lenguaje Markdown](https://markdown.es/sintaxis-markdown/#linkauto).
 
