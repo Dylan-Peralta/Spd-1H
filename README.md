@@ -32,6 +32,9 @@ void EncenderBinario(int estado3, int estado2,int estado1,int estado0)
 
 ## :robot: Link al proyecto
 - [Proyecto](https://www.tinkercad.com/things/4o4MSXtLEbl)
+
+## Vista Esquematica 
+- ![Tinkercad](./img/vistaesquematica.PNG)
 ## :tv: Link al video del proceso
 - [video](https://www.youtube.com/watch?v=VyGjE8kx-O0)
 
