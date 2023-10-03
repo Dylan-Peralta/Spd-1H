@@ -1,5 +1,5 @@
 # Contador con dos displays de 7 segmentos
-![Tinkercad](./img/ArduinoTinkercad.jpg)
+![Tinkercad](./img/Logo-tinkercad-wordmark.svg.png)
 
 
 ## Integrantes 
@@ -7,7 +7,7 @@
 - Dylan Peralta
 
 ## Contador con dos displays de 7 segmentos.
-![Tinkercad](./img/Logo-tinkercad-wordmark.svg.png)
+![Tinkercad](./img/Contador.png)
 
 
 ## Descripción
