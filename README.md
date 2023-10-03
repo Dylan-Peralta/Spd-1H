@@ -7,7 +7,7 @@
 - Dylan Peralta
 
 ## Contador con dos displays de 7 segmentos.
-![Tinkercad](./img/ContadorBinario.png)
+![Tinkercad](./img/Logo-tinkercad-wordmark.svg.png)
 
 
 ## Descripción
