@@ -11,7 +11,7 @@
 
 
 ## Descripción
-En este parrafo deberan describir que funcion cumple su proyecto. Que solucion esta ofreciendo.
+El funcionamiento del multiplexado al estar los display en un sistema de multiplexado controlamos con esta funcion cual display se enciende en que momento de esta menera con el uso de delay logramos el efecto de que estan encendidos ambos displays cuando en realidad se encienden y se apagan
 
 ## Función principal
 Esta funcion se encarga de encender y apagar los leds.
