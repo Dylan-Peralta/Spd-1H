@@ -30,7 +30,7 @@ void EncenderBinario(int estado3, int estado2,int estado1,int estado0)
 }
 ~~~
 
-## :robot: Link al proyecto
+## :robot: Link del proyecto
 - [Proyecto](https://www.tinkercad.com/things/4o4MSXtLEbl)
 
 ## Vista Esquematica 
