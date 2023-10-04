@@ -7,11 +7,11 @@
 - Dylan Peralta
 
 ## Proyecto: Contador con dos displays de 7 segmentos.
-![Tinkercad](./img/Contador.png)
+![Proyecto](./img/Contador.png)
 
 
 ## Descripción
-El funcionamiento del multiplexado al estar los display en un sistema de multiplexado controlamos con esta funcion cual display se enciende en que momento de esta menera con el uso de delay logramos el efecto de que estan encendidos ambos displays cuando en realidad se encienden y se apagan
+El funcionamiento de este proyecto es contar, descontar o resetear dependiendo de lo que desea el usuario, mostrandolo por dos display con la tecnica de multiplexación
 
 ## Función principal
 Esta funcion se encarga de encender y apagar los leds.
@@ -34,7 +34,7 @@ void EncenderBinario(int estado3, int estado2,int estado1,int estado0)
 - [Proyecto](https://www.tinkercad.com/things/4o4MSXtLEbl)
 
 ## Vista Esquematica 
-![Tinkercad](./img/vista-esquematica.PNG)
+![Vista Esquematica](./img/vista-esquematica.PNG)
  
 ## :tv: Link al video del proceso
 - [video](https://www.youtube.com/watch?v=VyGjE8kx-O0)
