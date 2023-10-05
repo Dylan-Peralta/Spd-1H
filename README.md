@@ -43,8 +43,8 @@ void manejarDisplay(int contadorNumeros)
 ## Vista Esquematica 
 ![Vista Esquematica](./img/vista-esquematica.PNG)
  
-## :tv: Link al video del proceso
-- [video](https://www.youtube.com/watch?v=VyGjE8kx-O0)
+## :tv: Armado del circuito electrico
+- [video](https://www.youtube.com/watch?v=jq-v3suBJPo&ab_channel=DylanPeralta)
 
 ---
 ### Fuentes
