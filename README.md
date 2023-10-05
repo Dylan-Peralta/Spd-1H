@@ -3,7 +3,7 @@
 
 
 ## Integrantes 
-- [Brian Romeo](github.com/RomeoBrian/spd/)
+- [Brian Romeo](https://github.com/RomeoBrian/spd)
 - Dylan Peralta
 
 ## Proyecto: Contador con dos displays de 7 segmentos.
