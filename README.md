@@ -1,4 +1,4 @@
-# Contador de 7 segmentos
+# Proyecto SPD
 ![Tinkercad](./img/Logo-tinkercad-wordmark.svg.png)
 
 
@@ -6,9 +6,13 @@
 - [Brian Romeo](https://github.com/RomeoBrian/spd)
 - Dylan Peralta
 
-## Proyecto: Contador con dos displays de 7 segmentos.
+## Proyecto: 
+### Contador con dos displays de 7 segmentos.
 ![Proyecto](./img/Contador.png)
-
+### Contador y numeros primos con Swicht
+![Proyecto](./img/Swicht.PNG)
+### Sensor de temperatura
+![Proyecto](./img/SensordeTemperatura.png)
 
 ## Descripción
 El funcionamiento de este proyecto es contar, descontar o resetear dependiendo de lo que desea el usuario, mostrandolo por dos display con la tecnica de multiplexación.
