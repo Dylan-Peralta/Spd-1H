@@ -12,7 +12,7 @@
 ### Contador y numeros primos con Swicht
 ![Proyecto](./img/Swicht.PNG)
 ### Sensor de temperatura
-![Proyecto](./img/SensordeTemperatura.png)
+![Proyecto](./img/Sensor-de-Temperatura.png)
 
 ## Descripción
 El funcionamiento de este proyecto es contar, descontar o resetear dependiendo de lo que desea el usuario, mostrandolo por dos display con la tecnica de multiplexación.
