@@ -135,6 +135,8 @@ void loop()
 - [Contador con 2 display 7 segmentos](https://www.tinkercad.com/things/4o4MSXtLEbl)
 - [Contador y numeros primos con Swicht](https://www.tinkercad.com/things/936vb1Llbhp)
 - [Sensor de temperatura](https://www.tinkercad.com/things/2xuGhtuZf7x)
+
+- [Fotoresistencia](https://www.tinkercad.com/things/fGxPoLRdvQX)
  
 ## Vista Esquematica 
 ### Vista Esquematica Contador con 2 display 7 segmentos
