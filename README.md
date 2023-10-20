@@ -14,6 +14,10 @@
 ### Sensor de temperatura.
 ![Proyecto](./img/Sensor-de-Temperatura.png)
 
+### Fotorresistencia.
+![Proyecto](./img/FOTORRE.png)
+
+
 ## Descripción
 ### Contador con dos displays de 7 segmentos.
 El funcionamiento de este proyecto es contar, descontar o resetear dependiendo de lo que desea el usuario, mostrandolo por dos display con la tecnica de multiplexación.
@@ -23,6 +27,9 @@ El funcionamiento de este proyecto es contar, descontar o resetear dependiendo d
 
 ### Sensor de temperatura.
 El funcionamiento de este proyecto es poder mostrar la temperatura deseada por display de 7 segmentos de -40° a 125°. 
+
+### Fotorresistencia.
+El funcionamiento de este proyecto es mostrar la variacion de la luz que incide sobre su superficie marcada en la Fotorresistencia y moostrarla por display.
 
 ## Función principal
 
@@ -130,6 +137,56 @@ void loop()
     }
 }
 ~~~
+
+### Fotorresistencia.
+Esta funcion toma la luz tomada por la fotoresistencia y las muestra por cada display correspondiente siendo centena,decena o unidad 
+
+~~~ C (lenguaje en el que esta escrito)
+void loop()
+{
+  	lecturaFotrresistencia = analogRead(0);
+    centena = lecturaFotrresistencia / 100;
+    decena = (lecturaFotrresistencia - (centena * 100)) / 10;
+    unidad = lecturaFotrresistencia - (centena * 100 + decena * 10);
+	  Serial.println(lecturaFotrresistencia);
+    displayApagado();
+
+    if (lecturaFotrresistencia >= 100)
+    {
+        displayCentenaFunction();
+        sevenDisplay(centena);
+
+        displayDecenaFunction();
+        sevenDisplay(decena);
+
+        displayUnidadFunction();
+        sevenDisplay(unidad);
+    }
+
+    if (lecturaFotrresistencia >= 0 && lecturaFotrresistencia <= 100)
+    {
+        displayApagado();
+        displayDecenaFunction();
+        sevenDisplay(decena);
+        displayUnidadFunction();
+        sevenDisplay(unidad);
+    }
+
+    if (lecturaFotrresistencia < 0)
+    {
+        displayCentenaFunction();
+        sevenDisplay(abs(centena));
+
+        displayDecenaFunction();
+        sevenDisplay(abs(decena));
+
+        displayUnidadFunction();
+        sevenDisplay(abs(unidad));
+    }
+}
+~~~
+
+
 
 ## :robot: Link del proyecto
 - [Contador con 2 display 7 segmentos](https://www.tinkercad.com/things/4o4MSXtLEbl)
