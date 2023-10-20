@@ -41,11 +41,11 @@ void manejarDisplay(int contadorNumeros)
 - [Proyecto](https://www.tinkercad.com/things/4o4MSXtLEbl)
 
 ## Vista Esquematica 
-###Vista Esquematica Contador con 2 display 7 segmentos
+### Vista Esquematica Contador con 2 display 7 segmentos
 ![Vista Esquematica Contador con 2 display 7 segmentos](./img/vista-esquematica.PNG)
-###Contador y numeros primos con Swicht
+### Contador y numeros primos con Swicht
 ![Contador y numeros primos con Swicht](./img/Vista-esquematica-Swicht.PNG)
-###Sensor de temperatura
+### Sensor de temperatura
 ![Sensor de temperatura](./img/Circuito-Sensor-Temperatura.png)
 
 ## :tv: Armado del circuito electrico
