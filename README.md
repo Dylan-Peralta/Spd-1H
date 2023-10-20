@@ -9,15 +9,24 @@
 ## Proyecto: 
 ### Contador con dos displays de 7 segmentos.
 ![Proyecto](./img/Contador.png)
-### Contador y numeros primos con Swicht
+### Contador y numeros primos con Swicht.
 ![Proyecto](./img/Swicht.PNG)
-### Sensor de temperatura
+### Sensor de temperatura.
 ![Proyecto](./img/Sensor-de-Temperatura.png)
 
 ## Descripción
+### Contador con dos displays de 7 segmentos.
 El funcionamiento de este proyecto es contar, descontar o resetear dependiendo de lo que desea el usuario, mostrandolo por dos display con la tecnica de multiplexación.
 
+### Contador y numeros primos con Swicht.
+El funcionamiento de este proyecto es contar, descontar o resetear dependiendo de lo que desea el usuario, agregandole un swicht dandole funcionamiento de poder contar numeros primos o numeros del 0 al 99 y mostrarlos por display.
+
+### Sensor de temperatura.
+El funcionamiento de este proyecto es poder mostrar la temperatura deseada por display de 7 segmentos de -40° a 125°. 
+
 ## Función principal
+
+### Contador con dos displays de 7 segmentos.
 Esta Funcion se encargara de encender los display correspondientes con el dato informado.
 
 En el primer caso obtenemos el valor del contador y lo dividimos por 10, para obtener el numero de la decena
@@ -38,6 +47,89 @@ void manejarDisplay(int contadorNumeros)
   numerosDisplay(contadorNumeros - 10*((int)contadorNumeros/10)); 
   prenderDisplay(0,1);
   delay(50);
+}
+~~~
+
+### Contador y numeros primos con Swicht.
+Se le agrega al caso anterior la funcion swPrimosContador dando la posibilidad al usuario de poder contar del 0 al 99 o numeros primos.
+
+En el estado 1 del switch se llama a la funcion esPrimo para poder definir si el numero dado es primo para mostrarlo en el display y en el estado 0 vuelve a llamar a la funcion numerosDisplay para mostrar los numeros del 0 al 99.
+
+~~~ C (lenguaje en el que esta escrito)
+swPrimosContador = digitalRead(switchPrimos);
+
+  int presionoTecla = teclaPrecionada();
+
+    if(swPrimosContador == 1)
+    {
+      if(estadoSw == 0)
+      {
+        contadorNumeros =0;
+        estadoSw = 1;
+      }
+      contadorNumeros = manejoPulsadores(presionoTecla);
+      numeroPrimo = esPrimo(contadorNumeros);
+      //llamamos la funcion para el manejo de los display
+      manejarDisplay(numeroPrimo);
+    }
+  else
+  {
+    if(estadoSw == 1 )
+      {
+        contadorNumeros =0;
+        estadoSw = 0;
+      }
+    contadorNumeros = manejoPulsadores(presionoTecla);
+      //llamamos la funcion para el manejo de los display
+      manejarDisplay(contadorNumeros);
+  }
+~~~
+
+### Sensor de temperatura.
+La funcion map consiste en definir el valor del rango del sensor de temperatura. Dependiendo del valor tomado por map se calcula la centena, decena o unidad y prendera el display correspondiente.
+
+~~~ C (lenguaje en el que esta escrito)
+void loop()
+{
+    temperaturaTomada = map(analogRead(sensor), 20, 358, -40, 125);
+    centena = temperaturaTomada / 100;
+    decena = (temperaturaTomada - (centena * 100)) / 10;
+    unidad = temperaturaTomada - (centena * 100 + decena * 10);
+
+    displayApagado();
+
+    if (temperaturaTomada >= 100)
+    {
+        displayCentenaFunction();
+        sevenDisplay(centena);
+
+        displayDecenaFunction();
+        sevenDisplay(decena);
+
+        displayUnidadFunction();
+        sevenDisplay(unidad);
+    }
+
+    if (temperaturaTomada >= 0 && temperaturaTomada <= 100)
+    {
+        displayApagado();
+        displayDecenaFunction();
+        sevenDisplay(decena);
+        displayUnidadFunction();
+        sevenDisplay(unidad);
+    }
+
+    if (temperaturaTomada < 0)
+    {
+        displayCentenaFunction();
+        sevenDisplay(-1);
+
+        displayDecenaFunction();
+        sevenDisplay(abs(decena));
+
+        displayUnidadFunction();
+        sevenDisplay(abs(unidad));
+    }
 }
 ~~~
 
