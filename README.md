@@ -156,7 +156,7 @@ void loop()
  
 - [Guia de uso display 7 segmentos](https://www.youtube.com/watch?v=_Ry7mtURGDE&list=PL7LaR6_A2-E11BQXtypHMgWrSR-XOCeyD&index=4&ab_channel=UTNFRA).
  
-- [Guia de uso sensor de temperatura](.https://www.youtube.com/watch?v=8AkxV-vMYWY&list=PL7LaR6_A2-E11BQXtypHMgWrSR-XOCeyD&index=5&t=1641s&ab_channel=UTNFRA).
+- [Guia de uso sensor de temperatura](https://www.youtube.com/watch?v=8AkxV-vMYWY&list=PL7LaR6_A2-E11BQXtypHMgWrSR-XOCeyD&index=5&t=1641s&ab_channel=UTNFRA).
 
 ---
 
