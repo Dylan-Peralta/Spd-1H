@@ -44,8 +44,9 @@ void manejarDisplay(int contadorNumeros)
 ![Vista Esquematica](./img/vista-esquematica.PNG)
  
 ## :tv: Armado del circuito electrico
-- [video](https://www.youtube.com/watch?v=jq-v3suBJPo&ab_channel=DylanPeralta)
-
+- [Contador con 2 display 7 segmentos](https://www.youtube.com/watch?v=jq-v3suBJPo&ab_channel=DylanPeralta)
+- [Contador y numeros primos con Swicht](https://www.youtube.com/watch?v=XDhogpwIkh4&ab_channel=DylanPeralta)
+- [Sensor de temperatura](https://www.youtube.com/watch?v=nUNdTDXHTAg&ab_channel=DylanPeralta)
 ---
 ### Fuentes
 - [Consigna](https://drive.google.com/file/d/1UTj8HBPnR7vM235m1BswtL_SMnmYe8nO/view).
