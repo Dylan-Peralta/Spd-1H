@@ -150,9 +150,13 @@ void loop()
 - [Sensor de temperatura](https://www.youtube.com/watch?v=nUNdTDXHTAg&ab_channel=DylanPeralta)
 ---
 ### Fuentes
-- [Consigna](https://drive.google.com/file/d/1UTj8HBPnR7vM235m1BswtL_SMnmYe8nO/view).
-
+- [Consigna 1](https://drive.google.com/file/d/1UTj8HBPnR7vM235m1BswtL_SMnmYe8nO/view).
+ 
+- [Consigna 2](https://drive.google.com/file/d/1XqrbtfLN_CeVb0dMFU-xou7SnRTsX9bv/view).
+ 
 - [Guia de uso display 7 segmentos](https://www.youtube.com/watch?v=_Ry7mtURGDE&list=PL7LaR6_A2-E11BQXtypHMgWrSR-XOCeyD&index=4&ab_channel=UTNFRA).
+ 
+- [Guia de uso sensor de temperatura](.https://www.youtube.com/watch?v=8AkxV-vMYWY&list=PL7LaR6_A2-E11BQXtypHMgWrSR-XOCeyD&index=5&t=1641s&ab_channel=UTNFRA).
 
 ---
 
