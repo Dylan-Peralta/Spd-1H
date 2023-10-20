@@ -109,7 +109,6 @@ void loop()
         displayUnidadFunction();
         sevenDisplay(unidad);
     }
-
     if (temperaturaTomada >= 0 && temperaturaTomada <= 100)
     {
         displayApagado();
@@ -118,7 +117,6 @@ void loop()
         displayUnidadFunction();
         sevenDisplay(unidad);
     }
-
     if (temperaturaTomada < 0)
     {
         displayCentenaFunction();
